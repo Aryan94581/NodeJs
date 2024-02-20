@@ -1,2 +1,2 @@
-import { fullName } from "../export/index.js";
+import { fullName } from "./export.js";
 console.log(fullName);
