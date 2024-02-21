@@ -1,3 +1,5 @@
-const superheroes = require("superheroes");
+import superheroes from "superheroes";
 
-console.log(superheroes.random());
+const named = superheroes.random();
+
+console.log(named);
